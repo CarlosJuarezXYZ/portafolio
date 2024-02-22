@@ -1,8 +1,8 @@
 import { FC } from "react";
 import Image from "next/image";
 import styled from "styled-components";
-import TextDescription from "../components/TextDescription/TextDescription";
-import Containers from "../components/Containers/Containers";
+import TextDescription from "../../components/TextDescription/TextDescription";
+import Containers from "../../components/Containers/Containers";
 
 const AboutMe: FC = () => {
   const { ContentImage } = Containers;

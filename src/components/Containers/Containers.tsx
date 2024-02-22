@@ -1,4 +1,4 @@
-import colors from "@/pages/utils/ui";
+import colors from "@/utils/ui";
 import styled from "styled-components";
 
 const ContentImage = styled.div`

@@ -42,8 +42,8 @@ const PROJECT_DATA_STUB: any = [
   {
     id: 6,
     image: "/images/perfil-beach.png",
-    title: "prueba",
-    redirect: "prueba",
+    title: "battle pokemon",
+    redirect: "https://battle-pokemon.vercel.app/",
     description:
       "esta es la descripcion de prueba esta es la descripcion de prueba esta es la descripcion de prueba",
   },

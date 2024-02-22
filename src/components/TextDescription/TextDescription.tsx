@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import colors from "@/pages/utils/ui";
+import colors from "@/utils/ui";
 import { AiFillHome } from "react-icons/ai";
 import { AiFillLinkedin } from "react-icons/ai";
 

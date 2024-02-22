@@ -1,12 +1,12 @@
 import { Inter } from "next/font/google";
-import NavBar from "./components/NavBar/NavBar";
-import TextDescription from "./components/TextDescription/TextDescription";
+import NavBar from "../components/NavBar/NavBar";
+import TextDescription from "../components/TextDescription/TextDescription";
 import Image from "next/image";
 import styled from "styled-components";
-import ImagePerfil from "./components/Image/ImagePerfil";
-import colors from "./utils/ui";
-import Button from "./components/Button/Button";
-import Containers from "./components/Containers/Containers";
+import ImagePerfil from "../components/Image/ImagePerfil";
+import colors from "../utils/ui";
+import Button from "../components/Button/Button";
+import Containers from "../components/Containers/Containers";
 
 const inter = Inter({ subsets: ["latin"] });
 

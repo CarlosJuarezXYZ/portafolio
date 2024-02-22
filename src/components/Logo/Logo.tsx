@@ -1,4 +1,4 @@
-import colors from "@/pages/utils/ui";
+import colors from "@/utils/ui";
 import { ReactElement } from "react";
 import styled from "styled-components";
 
