@@ -14,8 +14,6 @@ const CardNavigation:React.FC<CardNavigationInterface> = ({children,description,
     const router = useRouter();
     const [route, setRoute] = useState<string>();
 
-   
-
     const redirectTo = () => {
         setRoute(redirect);
         router.push(redirect);

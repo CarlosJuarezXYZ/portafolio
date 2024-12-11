@@ -2,7 +2,7 @@ import { FC } from "react";
 import CardProject from "../../components/CardProject/CardProject";
 import styled from "styled-components";
 import colors from "../../utils/ui";
-import PROJECT_DATA_STUB from "./stubs/project-data-stub";
+import PROJECT_DATA_STUB from "../../api/stubs/project-data-stub";
 
 const Projects: FC = () => {
   return (

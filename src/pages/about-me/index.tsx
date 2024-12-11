@@ -17,13 +17,11 @@ const AboutMe: FC = () => {
           priority
         />
       </ContentImage>
-      
         <TextDescription
           title="About Me"
           subtitle="Software Engineer"
           description="I am Software Engineer . I am convinced that technology will soon reach all corners of the world and I want to contribute to be part of that change. For this reason, I have the goal of learning and improving my skills very quickly in order to be a benchmark in this exciting industry."
         />
-      
     </ContainerAboutMe>
   );
 };
