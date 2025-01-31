@@ -32,16 +32,15 @@ const NavBar = () => {
   ];
   return (
     <ContainerNavbar>
-      <Logo children="C.J" />
+      <Logo>C.J</Logo>
       <ContainerNavBarIcons>
         {iconsNavegations.map((icons) => {
           return (
             <CardNavigation
               key={icons.id}
-              children={icons.icon}
               description={icons.description}
               redirect={icons.route}
-            />
+            >{icons.icon}</CardNavigation>
           );
         })}
       </ContainerNavBarIcons>
