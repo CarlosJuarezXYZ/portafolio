@@ -1,15 +1,15 @@
 const PROJECT_DATA_STUB: any = [
   {
     id: 1,
-    image: "/images/perfil-beach.png",
-    title: "Courses",
-    redirect: "https://courses-pied.vercel.app/",
+    image: "/images/shopping.png",
+    title: "Shopping",
+    redirect: "https://react-vite-2.vercel.app/clothe/home",
     description:
       "esta es la descripcion de prueba esta es la descripcion de prueba esta es la descripcion de prueba",
   },
   {
     id: 2,
-    image: "/images/perfil-beach.png",
+    image: "/images/github-profile.png",
     title: "Github Profiles",
     redirect: "https://search-profiles-github.vercel.app/",
     description:
@@ -17,7 +17,7 @@ const PROJECT_DATA_STUB: any = [
   },
   {
     id: 3,
-    image: "/images/perfil-beach.png",
+    image: "/images/calculator.png",
     title: "Calculator",
     redirect: "https://calculator-taupe-five-54.vercel.app/",
     description:
@@ -25,7 +25,7 @@ const PROJECT_DATA_STUB: any = [
   },
   {
     id: 4,
-    image: "/images/perfil-beach.png",
+    image: "/images/pokedex.png",
     title: "pokedex",
     redirect: "https://pokedex-eta-eosin-85.vercel.app/",
     description:
@@ -33,7 +33,7 @@ const PROJECT_DATA_STUB: any = [
   },
   {
     id: 5,
-    image: "/images/perfil-beach.png",
+    image: "/images/happy-birthday.png",
     title: "Birthday",
     redirect: "prueba",
     description:
@@ -41,57 +41,9 @@ const PROJECT_DATA_STUB: any = [
   },
   {
     id: 6,
-    image: "/images/perfil-beach.png",
+    image: "/images/battle-pokemon.png",
     title: "battle pokemon",
     redirect: "https://battle-pokemon.vercel.app/",
-    description:
-      "esta es la descripcion de prueba esta es la descripcion de prueba esta es la descripcion de prueba",
-  },
-  {
-    id: 7,
-    image: "/images/perfil-beach.png",
-    title: "prueba",
-    redirect: "prueba",
-    description:
-      "esta es la descripcion de prueba esta es la descripcion de prueba esta es la descripcion de prueba",
-  },
-  {
-    id: 8,
-    image: "/images/perfil-beach.png",
-    title: "prueba",
-    redirect: "prueba",
-    description:
-      "esta es la descripcion de prueba esta es la descripcion de prueba esta es la descripcion de prueba",
-  },
-  {
-    id: 9,
-    image: "/images/perfil-beach.png",
-    title: "prueba",
-    redirect: "prueba",
-    description:
-      "esta es la descripcion de prueba esta es la descripcion de prueba esta es la descripcion de prueba",
-  },
-  {
-    id: 10,
-    image: "/images/perfil-beach.png",
-    title: "prueba",
-    redirect: "prueba",
-    description:
-      "esta es la descripcion de prueba esta es la descripcion de prueba esta es la descripcion de prueba",
-  },
-  {
-    id: 11,
-    image: "/images/perfil-beach.png",
-    title: "prueba",
-    redirect: "prueba",
-    description:
-      "esta es la descripcion de prueba esta es la descripcion de prueba esta es la descripcion de prueba",
-  },
-  {
-    id: 12,
-    image: "/images/perfil-beach.png",
-    title: "prueba",
-    redirect: "prueba",
     description:
       "esta es la descripcion de prueba esta es la descripcion de prueba esta es la descripcion de prueba",
   },
