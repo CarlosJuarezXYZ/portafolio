@@ -2,13 +2,19 @@ import { FC, useState } from "react";
 import styled from "styled-components";
 
 const Container = styled.div`
-  max-width: 800px;
+  max-width: 900px;
   margin: 0 auto;
-  padding: 20px;
+  width: 100%;
+  padding: 16px;
   font-family: "Arial", sans-serif;
+  text-align: justify;
   background-color: #081b29; // Fondo oscuro
   color: #e0e0e0; // Texto claro para el fondo oscuro
   border-radius: 8px;
+
+  @media (max-width: 600px) {
+    padding: 10px;
+  }
 `;
 
 const Title = styled.h1`
@@ -16,6 +22,10 @@ const Title = styled.h1`
   font-weight: bold;
   color: #fff; // Título en blanco para destacar
   margin-bottom: 20px;
+
+  @media (max-width: 600px) {
+    font-size: 1.6rem;
+  }
 `;
 
 const SectionTitle = styled.h2`
@@ -23,36 +33,58 @@ const SectionTitle = styled.h2`
   font-weight: bold;
   color: #b0c4de; // Un color suave pero visible para los subtítulos
   margin-top: 20px;
+
+  @media (max-width: 600px) {
+    font-size: 1.2rem;
+  }
 `;
 
 const Paragraph = styled.p`
   font-size: 1rem;
   color: #dcdcdc; // Texto claro
   line-height: 1.6;
+
+  @media (max-width: 600px) {
+    font-size: 12px;
+  }
 `;
 
 const CodeBlock = styled.pre`
   background-color: #1e2a33; // Fondo oscuro para el bloque de código
   border-radius: 8px;
-  padding: 20px;
+  padding: 12px;
   font-family: "Courier New", monospace;
   color: #f0f0f0; // Texto claro dentro del bloque de código
   overflow-x: auto;
+  font-size: 14px;
+
+  @media (max-width: 600px) {
+    font-size: 12px;
+  }
 `;
 
 const InlineCode = styled.code`
   background-color: #333f4b; // Fondo oscuro para código en línea
   padding: 2px 4px;
   border-radius: 4px;
-  font-size: 1.1rem;
+  font-size: 14px;
   color: #f0f0f0; // Texto claro
+
+  @media (max-width: 600px) {
+    font-size: 12px;
+  }
 `;
 
 const Conclusion = styled.div`
   background-color: #0a2733; // Un color ligeramente diferente para la conclusión
   border-radius: 8px;
-  padding: 20px;
-  margin-top: 40px;
+  padding: 10px;
+  margin-top: 30px;
+  font-size: 14px;
+
+  @media (max-width: 600px) {
+    font-size: 12px;
+  }
 `;
 
 const ConclusionTitle = styled.h3`
@@ -60,12 +92,22 @@ const ConclusionTitle = styled.h3`
   font-weight: bold;
   color: #b0c4de; // Un color suave pero visible para los subtítulos
   margin-bottom: 10px;
+  font-size: 14px;
+
+  @media (max-width: 600px) {
+    font-size: 12px;
+  }
 `;
 
 const ConclusionParagraph = styled.p`
   font-size: 1rem;
   color: #dcdcdc; // Texto claro
   line-height: 1.6;
+  font-size: 14px;
+
+  @media (max-width: 600px) {
+    font-size: 12px;
+  }
 `;
 
 const Blog: FC = () => {
