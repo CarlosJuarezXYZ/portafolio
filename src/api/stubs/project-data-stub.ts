@@ -35,7 +35,7 @@ const PROJECT_DATA_STUB: any = [
     id: 5,
     image: "/images/happy-birthday1.png",
     title: "Birthday",
-    redirect: "prueba",
+    redirect: "https://birthday-silk.vercel.app/",
     description:
       "esta es la descripcion de prueba esta es la descripcion de prueba esta es la descripcion de prueba",
   },

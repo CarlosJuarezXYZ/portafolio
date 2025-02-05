@@ -1,6 +1,5 @@
 import styled from "styled-components"
 import Image from "next/image";
-import Button from "../Button/Button";
 import colors from "@/utils/ui";
 
 interface CardProjectProps {
