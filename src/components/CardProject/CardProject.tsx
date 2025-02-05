@@ -22,7 +22,7 @@ gap: 15px;
 border-radius:10px;
 border: 2px solid black;
 width:350px;
-height:175px;
+height:auto;
 box-shadow:0px 0px 1px;
 & img {
     border-radius:10px;
