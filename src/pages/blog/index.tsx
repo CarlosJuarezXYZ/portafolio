@@ -88,19 +88,13 @@ const Conclusion = styled.div`
 `;
 
 const ConclusionTitle = styled.h3`
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   font-weight: bold;
   color: #b0c4de; // Un color suave pero visible para los subtítulos
   margin-bottom: 10px;
-  font-size: 14px;
-
-  @media (max-width: 600px) {
-    font-size: 12px;
-  }
 `;
 
 const ConclusionParagraph = styled.p`
-  font-size: 1rem;
   color: #dcdcdc; // Texto claro
   line-height: 1.6;
   font-size: 14px;
